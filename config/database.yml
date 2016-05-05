@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: demo-rails-5-app_production
-  username: demo-rails-5-app
-  password: <%= ENV['DEMO-RAILS-5-APP_DATABASE_PASSWORD'] %>
+  # username: demo-rails-5-app
+  # password: <%= ENV['DEMO-RAILS-5-APP_DATABASE_PASSWORD'] %>
